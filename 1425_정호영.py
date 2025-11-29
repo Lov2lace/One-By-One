@@ -270,6 +270,7 @@ skills = {
     '가위바위보': Skill(['가위', '바위', '보자기'], skillType='attack', damage=40, image_p1="assets/p1_common_attack.png", image_p2="assets/p2_common_attack.png"),
     '삿대질': Skill(['왼손 가리키기', '오른손 가리키기', '가위'], skillType='attack', damage=40, image_p1="assets/p1_common_attack.png", image_p2="assets/p2_common_attack.png"),
     '술식전개': Skill(['가위', '보자기', '가위', '피스 사인', '바위'], skillType='attack', damage=70, image_p1="assets/p1_common_attack.png", image_p2="assets/p2_common_attack.png"),
+    '테스트': Skill(['보자기'], skillType='attack', damage=100, image_p1="assets/p1_common_attack.png", image_p2="assets/p2_common_attack.png"),
     
     '막기': Skill([], skillType='defense', damage=5, image_p1="assets/p1_sheild.png", image_p2="assets/p2_sheild.png"),
     
